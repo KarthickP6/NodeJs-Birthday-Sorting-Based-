@@ -1,0 +1,282 @@
+<head>
+<style>
+body {
+background-color: #e6ffe6;
+padding: 3%;
+border: 2px double #b3ffb3;
+}
+</style>
+</head>
+<body>
+<p><strong><span style="font-size:28px;"><span style="color:#27ae60;">Birthday cards application:</span></span></strong></p>
+
+<p>Create an application using <strong>Node.js</strong> and <strong>MongoDB </strong>that help to manage birthdays. </p>
+
+<p> </p>
+
+<ul>
+	<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p><strong>birthday-cards</strong> is the name of the database used in the application. </p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>There is a single collection called <strong>birthdays </strong>inside the database birthday-cards. </p>
+	</li>
+</ul>
+
+<p>  </p>
+
+<p><span style="color:#27ae60;"><span style="font-size:20px;"><strong>COLLECTIONS: </strong></span></span></p>
+
+<p> </p>
+
+<p>There is a single file for collection namely <strong>birthdays.js</strong> that reside inside <strong>src/mongoose/models</strong>. The schema of the collection is given as follows. </p>
+
+<p> </p>
+
+<table border="1" data-tablelook="1696" data-tablestyle="MsoTableGrid">
+	<tbody>
+		<tr>
+			<td colspan="6" data-celllook="0">
+			<p>addresses </p>
+			</td>
+		</tr>
+		<tr>
+			<td data-celllook="0">
+			<p>Sl. No. </p>
+			</td>
+			<td data-celllook="0">
+			<p>Field name </p>
+			</td>
+			<td data-celllook="0">
+			<p>Type </p>
+			</td>
+			<td data-celllook="0">
+			<p>Validations </p>
+			</td>
+			<td data-celllook="0">
+			<p>Required </p>
+			</td>
+			<td data-celllook="0">
+			<p>Default </p>
+			</td>
+		</tr>
+		<tr>
+			<td data-celllook="0">
+			<p>1 </p>
+			</td>
+			<td data-celllook="0">
+			<p>_id </p>
+			</td>
+			<td data-celllook="0">
+			<p>ObjectID </p>
+			</td>
+			<td data-celllook="0">
+			<p>Auto-generated </p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+		</tr>
+		<tr>
+			<td data-celllook="0">
+			<p>2 </p>
+			</td>
+			<td data-celllook="0">
+			<p>name </p>
+			</td>
+			<td data-celllook="0">
+			<p>String </p>
+			</td>
+			<td data-celllook="0">
+			<p>Should have a length between 3 to 15 </p>
+			</td>
+			<td data-celllook="0">
+			<p>TRUE </p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+		</tr>
+		<tr>
+			<td data-celllook="0">
+			<p>3</p>
+			</td>
+			<td data-celllook="0">
+			<p>dob</p>
+			</td>
+			<td data-celllook="0">
+			<p>Date</p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+			<td data-celllook="0">
+			<p>FALSE </p>
+			</td>
+			<td data-celllook="0">
+			<p>Current date and time</p>
+			</td>
+		</tr>
+		<tr>
+			<td data-celllook="0">
+			<p>4</p>
+			</td>
+			<td data-celllook="0">
+			<p>relationship</p>
+			</td>
+			<td data-celllook="0">
+			<p>String</p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+			<td data-celllook="0">
+			<p>TRUE</p>
+			</td>
+			<td data-celllook="0">
+			<p>-</p>
+			</td>
+		</tr>
+		<tr>
+			<td data-celllook="0">
+			<p>5</p>
+			</td>
+			<td data-celllook="0">
+			<p>__v </p>
+			</td>
+			<td data-celllook="0">
+			<p>Number </p>
+			</td>
+			<td data-celllook="0">
+			<p>Auto-generated </p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+			<td data-celllook="0">
+			<p>- </p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p lang="EN-US" xml:lang="EN-US"> </p>
+
+<p>You should <strong>set the validations</strong> to the fields as mentioned above.</p>
+
+<p> </p>
+
+<p> </p>
+
+<p><span style="font-size:20px;"><span style="color:#27ae60;"><strong>ROUTERS: </strong></span></span></p>
+
+<p> </p>
+
+<p>There is a single file for routers namely <strong>birthdays.js</strong> that reside inside <strong>src/routers</strong>. The endpoints and their functionalities are as follows. </p>
+
+<p> </p>
+
+<p><strong>1) <em>/birthdays </em>-&gt; POST Method -&gt;</strong> This route should save the data sent with the request body inside the <strong>birthdays</strong><b> </b>collection. </p>
+
+<p> </p>
+
+<p><strong>Sample data sent with the request: </strong></p>
+
+<p> </p>
+
+<pre>
+<code class="language-json">{
+    "name": "person_one",
+    "dob": "1994-03-23T00:00:00.000Z",
+    "relationship": "Brother"
+}</code></pre>
+
+<p> </p>
+
+<ul>
+	<li data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-listid="1">
+	<p>If the insertion was successful, then you should send a response code of <strong>201</strong>. </p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="3" data-font="Symbol" data-leveltext="" data-listid="1">
+	<p>If some data validations failed and the data is not inserted into the collection then you should send a response code of <strong>400</strong>. </p>
+	</li>
+</ul>
+
+<p> </p>
+
+<p><strong>2) <em>/birthdays</em>-&gt; GET Method -&gt;</strong> This route should fetch the data from the <strong>birthdays </strong>collection.  This route also has three optional query parameters namely <strong>name</strong>, <strong>dob </strong>and <strong>type</strong>.</p>
+
+<p> </p>
+
+<ul>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If no query parameters were sent with the request URL, then you should fetch all the data from the <strong>birthdays </strong>collection.</p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If the parameter <strong>name </strong>is sent in the URL with the value <strong>asc</strong>, then you should sort the data based on the alphabetical order of the names(A-Z) and if <strong>desc </strong>is sent as the value then you should sort the data based on reversed alphabetical order(Z-A).</p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If the parameter <strong>dob </strong>is sent in the URL with the value <strong>asc</strong>, then you should sort the data in ascending order of the dob and if <strong>desc </strong>is sent as the value then you should sort the data in descending order of the dob.</p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If the parameter <strong>type </strong>is sent with the URL, then you should fetch the data that are having relationship equal to the value of type.</p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If the parameters <strong>type </strong>and <strong>name </strong>with the value <strong>asc</strong> are sent with the request URL then you should sort the data based on the alphabetical order of the names(A-Z) and if <strong>desc </strong>is sent as the value then you should sort the data based on reversed alphabetical order(Z-A) and fetch the data that are having relationship equal to the value of type.</p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If the parameters <strong>type </strong>and <strong>dob </strong>with the value <strong>asc</strong> are sent with the request URL then you should sort the data in ascending order of the dob and if <strong>desc </strong>is sent as the value then you should sort the data in descending order of the dob and fetch the data that are having relationship equal to the value of type.</p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If the data is fetched successfully from the database, then you should send a response code of <strong>200</strong>. </p>
+	</li>
+</ul>
+
+<ul>
+	<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="2">
+	<p>If something went wrong and the data is not fetched successfully from the database, then you should send a response code of <strong>400</strong>. </p>
+	</li>
+</ul>
+
+<p> </p>
+<p><span style="color:#27ae60;"><span style="font-size:18px;"><strong>Note:</strong></span></span></p>
+
+<p> </p>
+
+<ul>
+	<li>If you cannot find node-modules inside <strong>Desktop/Project/kickoff-node.js-birthdaycards/NodeJS</strong>, then run <strong>sh install.sh</strong> in the terminal.</li>
+</ul>
+
+<p> </p>
+
+<p><span style="font-size:20px;"><span style="color:#27ae60;"><strong>MongoDB Commands:</strong></span></span></p>
+
+<p> </p>
+
+<ul>
+	<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>You can open the mongo shell by running mongo from the terminal. </p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>You can view all the data from the database in MongoDB by running <strong>show dbs</strong> from the mongo shell. </p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="3" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>You can select the database by running <strong>use birthday-cards.</strong> </p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>You can view the names of the collections by running <strong>show collections</strong>. </p>
+	</li>
+	<li data-aria-level="1" data-aria-posinset="5" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>You can view the data inside a collection by running <strong>db.birthdays.find() </strong></p>
+	</li>
+</ul>
+
+<ul>
+	<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="3">
+	<p>Press <strong>ctrl+c</strong> to exit. </p>
+	</li>
+</ul>
+<!--Database-->

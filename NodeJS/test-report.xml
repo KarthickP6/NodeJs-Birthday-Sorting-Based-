@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js" errors="0" package="/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js" hostname="localhost" tests="13" failures="13" time="23.573" timestamp="2021-07-02T10:57:23">
+    <properties>
+    </properties>
+    <testcase classname="Adding birthday card" name="Adding birthday card" time="0">
+      <failure message=": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: 
+    at new Spec (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+    at new Spec (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)
+    at specFactory (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24)
+    at Env.it (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24)
+    at Env.it (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23)
+    at test (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:9:1)
+    at Runtime._execModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:1299:24)
+    at Runtime._loadModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:898:12)
+    at Runtime.requireModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:746:10)
+    at jasmine2 (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/index.js:230:13)
+    at runTestInternal (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runner/build/runTest.js:380:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runner/build/runTest.js:472:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Adding birthday card with invalid name" name="Adding birthday card with invalid name" time="0">
+      <failure message=": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: 
+    at new Spec (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+    at new Spec (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)
+    at specFactory (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24)
+    at Env.it (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24)
+    at Env.it (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23)
+    at test (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:20:1)
+    at Runtime._execModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:1299:24)
+    at Runtime._loadModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:898:12)
+    at Runtime.requireModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:746:10)
+    at jasmine2 (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/index.js:230:13)
+    at runTestInternal (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runner/build/runTest.js:380:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runner/build/runTest.js:472:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Adding birthday card with invalid name" name="Adding birthday card with invalid name" time="0">
+      <failure message=": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: 
+    at new Spec (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+    at new Spec (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)
+    at specFactory (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24)
+    at Env.it (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24)
+    at Env.it (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23)
+    at test (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:31:1)
+    at Runtime._execModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:1299:24)
+    at Runtime._loadModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:898:12)
+    at Runtime.requireModule (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runtime/build/index.js:746:10)
+    at jasmine2 (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/index.js:230:13)
+    at runTestInternal (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runner/build/runTest.js:380:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-runner/build/runTest.js:472:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards" name="Viewing birthday cards" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:43:59)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the names" name="Viewing birthday cards based on the names" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:53:68)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the names" name="Viewing birthday cards based on the names" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:63:69)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the dob" name="Viewing birthday cards based on the dob" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:73:67)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the dob" name="Viewing birthday cards based on the dob" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:83:68)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the relationship" name="Viewing birthday cards based on the relationship" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:93:71)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the relationship and name" name="Viewing birthday cards based on the relationship and name" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:104:80)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the relationship and name" name="Viewing birthday cards based on the relationship and name" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:112:81)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the relationship and dob" name="Viewing birthday cards based on the relationship and dob" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:120:80)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing birthday cards based on the relationship and dob" name="Viewing birthday cards based on the relationship and dob" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/test/birthdays.test.js:128:81)
+    at Object.asyncJestTest (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+----
+    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:296:12)
+    at /media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:311:11)
+    at Test.Object.&lt;anonymous&gt;.Test.assert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:201:21)
+    at Server.localAssert (/media/jai/445EBBDC5EBBC4C8/Wings exam/Hackathon/T1 Hackathon/kickoffs-nodejs-birthdaycards/NodeJS/node_modules/supertest/lib/test.js:159:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
